@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+.container {
+  width: 450px;
+  margin: 50px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px gray;
+}
+
+h1 {
+  text-align: center;
+}
+
+.inputBox {
+  display: flex;
+  gap: 10px;
+}
+
+.inputBox input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.inputBox button {
+  padding: 10px 20px;
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.task span {
+  margin-left: 10px;
+}
+
+.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.tick {
+  color: green;
+  margin-left: 10px;
+  font-size: 20px;
+  text-decoration: none !important;
+}
